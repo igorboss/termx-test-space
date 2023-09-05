@@ -1,0 +1,33 @@
+{
+  "date" : "2023-01-24T00:00:00Z",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termx.kodality.dev/fhir/ValueSet/medicationrequest-dose-units"
+  } ],
+  "compose" : {
+    "include" : [ {
+      "system" : "http://unitsofmeasure.org",
+      "version" : "3.0.1",
+      "filter" : [ {
+        "property" : "kind",
+        "value" : "\"Mass Concentration Units\""
+      }, {
+        "property" : "kind",
+        "value" : "\"SI Mass Units\""
+      }, {
+        "property" : "kind",
+        "value" : "\"SI Volume Units\""
+      } ]
+    } ],
+    "exclude" : [ ],
+    "property" : [ ]
+  },
+  "publisher" : "Kodality",
+  "experimental" : false,
+  "id" : "medicationrequest-dose-units@1.0.0",
+  "title" : "Dose unit of the medication request",
+  "version" : "1.0.0",
+  "url" : "https://tx.evita.health/ValueSet/medicationrequest-dose-units",
+  "resourceType" : "ValueSet",
+  "status" : "draft"
+}
