@@ -1,0 +1,23 @@
+{
+  "date" : "2023-01-24T00:00:00Z",
+  "extension" : [ {
+    "url" : "http://hl7.org/fhir/tools/StructureDefinition/web-source",
+    "valueUrl" : "https://termx.kodality.dev/fhir/ValueSet/medicationrequest-category"
+  } ],
+  "compose" : {
+    "include" : [ {
+      "system" : "https://kodality.org/fhir/CodeSystem/medicationrequest-category",
+      "version" : "1"
+    } ],
+    "exclude" : [ ],
+    "property" : [ ]
+  },
+  "publisher" : "kts",
+  "experimental" : false,
+  "id" : "medicationrequest-category@1",
+  "title" : "medicationrequest-type",
+  "version" : "1",
+  "url" : "https://kodality.org/fhir/ValueSet/medicationrequest-category",
+  "resourceType" : "ValueSet",
+  "status" : "draft"
+}
