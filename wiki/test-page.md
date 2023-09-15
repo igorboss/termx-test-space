@@ -29,6 +29,7 @@ Add new syntax support [Terminology server](terminology) and compose link with s
 1. aaa
 1. bbb
 1. ccc
+2. ddd
 
 Lorem ^ipsum^ dolor
 
