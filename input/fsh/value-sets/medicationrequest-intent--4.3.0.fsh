@@ -1,5 +1,5 @@
 ValueSet: MedicationrequestIntent430
-Id: medicationrequest-intent.4.3.0
+Id: medicationrequest-intent--4.3.0
 Title: "medicationRequest Intent"
 Description: "MedicationRequest Intent Codes"
 * ^text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"codesystem-medicationrequest-intent.html\"><code>http://hl7.org/fhir/CodeSystem/medicationrequest-intent</code></a></li></ul></div>"

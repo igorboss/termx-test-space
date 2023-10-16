@@ -1,5 +1,5 @@
 ValueSet: MedicationrequestDoseUnits100
-Id: medicationrequest-dose-units.1.0.0
+Id: medicationrequest-dose-units--1.0.0
 Title: "Dose unit of the medication request"
 * ^extension.url = "http://hl7.org/fhir/tools/StructureDefinition/web-source"
 * ^extension.valueUrl = "https://termx.kodality.dev/fhir/ValueSet/medicationrequest-dose-units"
